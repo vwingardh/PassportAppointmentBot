@@ -1,6 +1,6 @@
-# Passport Appointment Web Scraper
+# Passport Appointment Bot
 
-PassportBot is a web scraper for notifying via SMS available days for passport appointment times at selected US Embassy.
+Passport Appointment Bot is a web scraping script to notify via SMS available days for passport appointment times at selected US Embassy.
 
 Built with:
 * [Selenium](https://pypi.org/project/selenium/ "Selenium")
