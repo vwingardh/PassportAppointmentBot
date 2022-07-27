@@ -1,3 +1,15 @@
+"""
+This script was created to check for passport appointment day availability.
+At the time of this writing, appointment times for the US Embassy Stockholm is
+a 5 month wait. The embassy releases cancellations as they occur, this script can be 
+automated to run every hour to check for said cancellations.
+
+Months list should be changed to reflect the months that the script should look at.
+
+Include Twilio account SID, Twilio auth token, your mobile phone number, and your
+assigned Twilio phone number. 
+"""
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
